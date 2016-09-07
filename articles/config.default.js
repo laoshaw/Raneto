@@ -4,7 +4,7 @@
 var config = {
 
   // Your site title (format: page_title - site_title)
-  site_title: 'Raneto Docs',
+  site_title: 'KnowledgeBase',
 
   // The base URL of your site (can use %base_url% in Markdown files)
   base_url: '',
@@ -28,7 +28,7 @@ var config = {
 
   // Which Theme to Use?
   theme_dir  : __dirname + '/../themes/',
-  theme_name : 'default',
+  theme_name : 'local',
 
   // Specify the path of your content folder where all your '.md' files are located
   // Fix: Needs trailing slash for now!
@@ -36,7 +36,7 @@ var config = {
   content_dir : __dirname + '/content/',
 
   // Where is the public directory or document root?
-  public_dir  : __dirname + '/../themes/default/public/',
+  public_dir  : __dirname + '/../themes/local/public/',
 
   // The base URL of your images folder,
   // Relative to config.public_dir
