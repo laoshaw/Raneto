@@ -27,6 +27,7 @@ delint:
 		app/                           \
 		bin/raneto                     \
 		example/                       \
+		articles/
 		gulpfile.js;
 
 .PHONY: build
@@ -39,7 +40,7 @@ build:
 start:
 
 	# Start HTTP Server
-	node example/server.js
+	node articles/server.js
 
 .PHONY: deploy
 deploy:
